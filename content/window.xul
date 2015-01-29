@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+
+
+<window id="example-window" title="Example 2.5.4"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript"
+    src="chrome://xulschoolhello/content/window.js" />
+
+<listbox id= 'delay_list'>
+  <listhead>
+    <listheader label="domain name"/>
+    <listheader label="pre-processing"/>
+    <listheader label="network"/>
+    <listheader label="local-processing"/>
+  </listhead>
+
+  <listcols>
+    <listcol width = "300" flex='1'/>
+    <listcol/>
+    <listcol/>
+    <listcol/>
+    <listcol/>
+  </listcols>
+  
+</listbox>
+
+
+
+ <description id = "be">hello, world</description>
+ <description id = "in">hello, world</description>
+ <description id = "af">hello, world</description>
+ 
+ <!--<button label="Save"
+        oncommand="XULSchoolWindow.alter.SaveFile()" />
+-->
+
+</window>
+
